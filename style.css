@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: #5B7553;
+
+}
+header{
+    background-color: #C3E8BD;
+}
+.box-uno,.box-dos,.box-seis,.box-siete{
+    background-color: #8EB897;
+    text-align: center;
+    overflow-wrap: break-word;
+    width: 643px;
+    height: 246px;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.box-tres{
+    background-image: url(pexels-photo-1048035.webp);
+    background-size: cover;
+    background-position: center;
+    width: 309px;
+    height: 246px;
+    border-radius: 15px;  
+}
+.box-cuatro{
+    background-image: url(pexels-dominika-roseclay-1141792.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 643px;
+    height: 246px;
+    border-radius: 15px;
+}
+.box-sinco{
+    background-image: url(pexels-min-an-1599969.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 309px;
+    height: 246px;
+    border-radius: 15px;
+}
+.box-uno,.box-dos{
+    justify-content: center;
+    display: inline-block;
+}
+.box-tres,.box-cuatro,.box-sinco{
+    display: inline-block;
+}
+.box-seis,.box-siete{
+    display: inline-block;
+}
+@media (max-width: 600px) {
+    .box-uno,.box-dos,.box-seis,.box-siete{
+        width: 309px;
+        height: 246px;
+    }
+  .box-cuatro{
+    width: 309px;
+    height: 246px;
+  }
+}
+@media (max-width: 800px){
+ .box-tres{
+    display: none;
+ }
+ .box-sinco{
+  display: none;
+ }
+}
